@@ -67,7 +67,7 @@ function App() {
                 <p className="text-gray-600 mt-2">Madrid, Spain</p>
                 <div className="flex gap-4 mt-4">
                   <a 
-                    href="https://www.linkedin.com/in/yoshuadotpro/" 
+                    href="https://www.linkedin.com/in/josuenavarroaguado/" 
                     className="bg-[#1064c4] text-white px-6 py-2 rounded-full hover:bg-[#0d4fa0] transition-colors"
                     aria-label="LinkedIn Profile"
                     rel="noopener noreferrer"
