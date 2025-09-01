@@ -5,11 +5,11 @@ function App() {
   return (
     <div className="min-h-screen bg-[#f3f2ef]">
       {/* Header */}
-      <header className="bg-white border-b border-gray-200 fixed top-0 w-full z-10">
-        <nav className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between" role="navigation" aria-label="Main navigation">
-          <a href="https://yoshua.pro"><img src="/favicon-32x32.png" alt="Yoshua.pro"/></a>
-          <a href="https://yoshua.pro"><h1 className="text-2xl font-bold text-[#1064c4]">Yoshua.pro</h1></a>
-          <div className="flex items-center gap-4">
+      {/* <header className="bg-white border-b border-gray-200 fixed top-0 w-full z-10"> */}
+        {/* <nav className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between" role="navigation" aria-label="Main navigation"> */}
+          {/* <a href="https://josuenavarro.com"><img src="/favicon-32x32.png" alt="Yoshua.pro"/></a> */}
+          {/* <a href="https://yoshua.pro"><h1 className="text-2xl font-bold text-[#1064c4]">Yoshua.pro</h1></a> */}
+          {/* <div className="flex items-center gap-4"> */}
             {/* <a 
               href="https://github.com" 
               className="text-gray-600 hover:text-[#1064c4] transition-colors p-2" 
@@ -19,7 +19,7 @@ function App() {
             >
               <Github className="w-5 h-5" aria-hidden="true" />
             </a> */}
-            <a 
+            {/* <a 
               href="https://www.linkedin.com/in/yoshuadotpro/" 
               className="text-gray-600 hover:text-[#1064c4] transition-colors p-2" 
               aria-label="LinkedIn Profile"
@@ -27,7 +27,7 @@ function App() {
               target="_blank"
             >
               <Linkedin className="w-5 h-5" aria-hidden="true" />
-            </a>
+            </a> */}
             {/* <a 
               href="https://www.linkedin.com/company/yoshuadotpro/" 
               className="text-gray-600 hover:text-[#1064c4] transition-colors p-2" 
@@ -44,11 +44,11 @@ function App() {
             >
               <Mail className="w-5 h-5" aria-hidden="true" />
             </a> */}
-          </div>
-        </nav>
-      </header>
+          {/* </div> */}
+        {/* </nav> */}
+      {/* </header> */}
 
-      <main className="pt-16 pb-12">
+      <main className="pt-1 pb-12">
         <div className="max-w-6xl mx-auto px-4 space-y-6">
           {/* Hero Section */}
           <section className="bg-white rounded-lg shadow-sm p-6 mt-6" aria-labelledby="profile-heading">
@@ -66,13 +66,22 @@ function App() {
                 <p className="text-xl text-gray-600 mt-1">Solutions Architect</p>
                 <p className="text-gray-600 mt-2">Madrid, Spain</p>
                 <div className="flex gap-4 mt-4">
-                  <button 
+                  <a 
+                    href="https://www.linkedin.com/in/yoshuadotpro/" 
+                    className="bg-[#1064c4] text-white px-6 py-2 rounded-full hover:bg-[#0d4fa0] transition-colors"
+                    aria-label="LinkedIn Profile"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Contact me
+                  </a>
+                  {/* <button 
                     className="bg-[#1064c4] text-white px-6 py-2 rounded-full hover:bg-[#0d4fa0] transition-colors"
                     onClick={() => window.location.href = 'mailto:yoshua@yoshua.pro'}
                     aria-label="Contact me via email"
                   >
                     Contact Me
-                  </button>
+                  </button> */}
                   {/* <button 
                     className="border border-[#1064c4] text-[#1064c4] px-6 py-2 rounded-full hover:bg-[#1064c4]/5 transition-colors"
                     onClick={() => }
