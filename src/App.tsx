@@ -55,14 +55,14 @@ function App() {
             <div className="flex items-start gap-6">
               <img
                 src="me.png"
-                alt="Josue Navarro"
+                alt="Josué Navarro"
                 className="w-40 h-40 rounded-lg object-cover"
                 width="160"
                 height="160"
                 loading="eager"
               />
               <div>
-                <h2 id="profile-heading" className="text-3xl font-bold text-gray-900">Josue Navarro</h2>
+                <h2 id="profile-heading" className="text-3xl font-bold text-gray-900">Josué Navarro</h2>
                 <p className="text-xl text-gray-600 mt-1">Solutions Architect</p>
                 <p className="text-gray-600 mt-2">Madrid, Spain</p>
                 <div className="flex gap-4 mt-4">
@@ -98,26 +98,23 @@ function App() {
           <section className="bg-white rounded-lg shadow-sm p-6" aria-labelledby="about-heading">
             <h3 id="about-heading" className="text-xl font-semibold text-gray-900 mb-4">About</h3>
             <p className="text-gray-600 leading-relaxed">
-              👋 Hi, I'm Josue, a seasoned Solutions Architect with 10+ years in IT, driven by a passion for innovation and learning. I've designed, developed, and delivered projects across diverse domains. Here's a glimpse of my expertise:
-              <br/><br/>
-              ✨ Specialties ✨
-              <br/>
-              ✅ Software Architecture: Proficient in SOLID principles, Clean Architecture, DDD, and design patterns for scalable, modular solutions.<br/>
-              ✅ Modern Development: Skilled in git flow, continuous deployments, and clean, maintainable code.<br/>
-              ✅ Microservices & Frontend/Backend: Expert in C#, .NET, TypeScript, Angular, and microfrontends for modular systems.<br/>
-              ✅ Cloud & DevOps: Experienced with AWS, GCP, Docker, Kubernetes, CI/CD pipelines, and GitHub Actions.<br/>
-              ✅ Linux & Open Source: Passionate about leveraging open-source tools for robust solutions.<br/>
-              ✅ R&D: Exploring emerging tech like Generative AI and collaborative modeling for domain insights.<br/>
-              <br/>
-              ✨ Attributes ✨<br/>
-              ✅ Collaboration: Clear communicator, bridging gaps between stakeholders.<br/>
-              ✅ Problem-Solving: Excels at tackling complex challenges with positivity.<br/>
-              ✅ Continuous Learning: Stays updated to deliver future-proof solutions.<br/>
-              <br/>
-              📬 Let’s Connect! 📬<br/>
-              Reach out for architectural guidance, mentorship, or collaborative projects.
-              <br/>
-              Let’s build something great together!
+              I am a seasoned Solutions Architect with over 10 years of experience in the IT industry, driven by a commitment to innovation and continuous learning. I have designed, developed, and delivered solutions across diverse domains, consistently aligning technology with business outcomes.
+              <br /><br />
+              <b>Specialties</b><br />
+              • Software Architecture — Proficient in SOLID principles, Clean Architecture, Domain-Driven Design (DDD), and design patterns for scalable, modular solutions.<br />
+              • Modern Development — Skilled in git flow, continuous deployments, and writing clean, maintainable code.<br />
+              • Microservices & Frontend/Backend — Expert in C#, .NET, TypeScript, Angular, and microfrontends for modular, independently deployable systems.<br />
+              • Cloud & DevOps — Experienced with AWS, GCP, Docker, Kubernetes, CI/CD pipelines, and GitHub Actions.<br />
+              • Linux & Open Source — Passionate about leveraging open-source tools to build robust, efficient platforms.<br />
+              • Research & Development — Actively exploring emerging technologies such as Generative AI and facilitating collaborative modeling for domain insights.<br />
+              <br /><br />
+              <b>Attributes</b><br />
+              – Collaboration — Clear communicator who bridges gaps between technical and non-technical stakeholders.<br />
+              – Problem-Solving — Skilled at addressing complex challenges with a structured, solution-oriented approach.<br />
+              – Continuous Learning — Dedicated to staying ahead of trends to deliver sustainable, future-ready solutions.<br />
+              <br /><br />
+              <b>Let’s Connect</b><br />
+              Open to discussing architectural challenges, mentorship opportunities, or collaborative projects that drive measurable success.
             </p>
           </section>
 
