@@ -127,7 +127,7 @@ function App() {
             <div className="space-y-6">
               <div className="flex gap-4">
                 <img
-                  src="tecnocim.jpg"
+                  src="rasmia.jpeg"
                   alt="Tecnocim company logo"
                   className="w-12 h-12 rounded object-cover"
                   width="48"
@@ -136,8 +136,20 @@ function App() {
                 />
                 <div>
                   <h4 className="font-semibold text-gray-900">Solutions Architect</h4>
-                  <p className="text-gray-600">Software Tecnic Tecnocim SL • Full-time</p>
-                  <p className="text-gray-500 text-sm">Oct 2020 - Present • 2 years 4 months</p>
+                  <p className="text-gray-600">Rasmia Alianza Tecnológica SL • Full-time</p>
+                    {(() => {
+                      const startDate = new Date('2022-10-01'); // Oct 2020
+                      const endDate = new Date(); // Present
+                      const diffMs = endDate.getTime() - startDate.getTime();
+                      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+                      const diffYears = Math.floor(diffDays / 365);
+                      const diffMonths = Math.floor((diffDays % 365) / 30);
+                      return (
+                        <p className="text-gray-500 text-sm">
+                          Oct 2020 - Present • {diffYears} years{diffMonths > 0 ? ` ${diffMonths} months` : ''}
+                        </p>
+                      );
+                    })()}
                   <p className="text-gray-500 text-sm">Remote</p>
                 </div>
               </div>
