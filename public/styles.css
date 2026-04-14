@@ -125,11 +125,18 @@ button:focus-visible {
 .hero-backdrop-media {
   position: absolute;
   inset: 0;
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
   filter: saturate(1.05);
+}
+
+.hero-backdrop-picture {
+  position: absolute;
+  inset: 0;
+  display: block;
 }
 
 .hero-backdrop {
@@ -228,6 +235,7 @@ h1 {
 }
 
 .hero-portrait img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
