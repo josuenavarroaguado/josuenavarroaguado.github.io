@@ -1,0 +1,33 @@
+# Josue Navarro - CTO Portfolio
+
+## Profile
+- Name: Josue Navarro
+- Role: Chief Technology Officer
+- Location: Greater Madrid Metropolitan Area
+- Focus: Technology strategy, scalable systems, cloud architecture, AI-driven architecture
+- Languages: Spanish (native or bilingual), English (professional working)
+
+## Current Position
+- CTO at Rasmia Alianza Tecnologica S.L. (Mar 2026-present)
+
+## Expertise
+- Technology leadership and architecture governance
+- Domain-Driven Design and Clean Architecture
+- Cloud strategy and platform standardization (AWS/GCP)
+- CI/CD modernization and delivery performance
+- Event-driven and distributed systems
+- Practical AI integration for software platforms
+
+## Certifications
+- ChatGPT Prompt Engineering for Developers
+- Introduction to Generative AI
+- Building Systems with the ChatGPT API
+- Speexx English CEFR Level B2.2
+
+## Contact
+- Email: josuenavarroaguado@outlook.com
+- LinkedIn: https://www.linkedin.com/in/josuenavarroaguado
+- Portfolio: https://josuenavarro.com
+
+## Primary URL
+- https://josuenavarro.com/
