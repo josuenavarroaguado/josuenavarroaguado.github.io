@@ -26,6 +26,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
 
+  <link rel="preload" as="image" href="/banner.jpeg" fetchpriority="high">
   <link rel="preload" as="image" href="/me.jpeg" imagesrcset="/me.jpeg 1x" imagesizes="(min-width: 980px) 28vw, 80vw">
   <link rel="stylesheet" href="/styles.css">
 
@@ -103,6 +104,7 @@
 
   <main id="main-content">
     <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-backdrop-media" src="/banner.jpeg" width="1080" height="270" alt="" aria-hidden="true" fetchpriority="high" decoding="async">
       <div class="hero-backdrop" aria-hidden="true"></div>
       <div class="shell hero-grid">
         <div class="hero-copy">
@@ -206,11 +208,12 @@
     <section class="credibility shell" aria-labelledby="credibility-title">
       <h2 id="credibility-title">Selected ecosystem and technology footprint</h2>
       <ul class="logo-grid">
-        <li><img src="/togaf10.png" width="160" height="160" alt="TOGAF 10 logo" loading="lazy" decoding="async"></li>
+        <li><img src="/togaf.png" width="160" height="160" alt="TOGAF 10 logo" loading="lazy" decoding="async"></li>
         <li><img src="/microsoft.png" width="160" height="160" alt="Microsoft logo" loading="lazy" decoding="async"></li>
         <li><img src="/aws.webp" width="160" height="160" alt="AWS logo" loading="lazy" decoding="async"></li>
         <li><img src="/gcp.png" width="160" height="160" alt="Google Cloud logo" loading="lazy" decoding="async"></li>
         <li><img src="/kubernetes.png" width="160" height="160" alt="Kubernetes logo" loading="lazy" decoding="async"></li>
+        <li><img src="/docker.png" width="160" height="160" alt="Docker logo" loading="lazy" decoding="async"></li>
       </ul>
     </section>
 
