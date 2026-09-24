@@ -4,7 +4,7 @@
   --paper: #f3f5ef;
   --cream: #e6eadf;
   --accent: #b9e6f5;
-  --coral: #f37b61;
+  --coral: #a9432d;
   --line: rgba(11, 61, 102, .16);
   --serif: Georgia, 'Times New Roman', serif;
   --sans: 'Trebuchet MS', 'Segoe UI', sans-serif;
@@ -81,6 +81,7 @@ details:last-child { border-bottom: 1px solid var(--line); }
 summary { cursor: pointer; font-weight: 700; padding-right: 2rem; }
 details p { max-width: 65ch; color: var(--muted); margin: 1rem 0 0; }
 .contact-band { background: var(--ink); color: var(--paper); padding: 5rem 0; }
+.contact-band .eyebrow { color: var(--accent); }
 .contact-band h2 { color: var(--accent); max-width: 10ch; }
 .contact-band .lede { color: #ccd6cc; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 2rem; }
